@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #71ac82;
+        color: #eff6e0;
+        font-style: italic;
+        font-family: system-ui;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        background-color: #dde7c7;
+      }
+      .item {
+        padding: 10px;
+        cursor: pointer;
+        color: #1b4332;
+      }
+      .item:hover {
+        background-color: #98c9a3;
+      }
+      .heading {
+        display: flex;
+        justify-content: center;
+        background-color: #235440;
+      }
+      .green {
+        color: #4f5d4f;
+      }
+      .left {
+        display: inline-block;
+        padding: 20px;
+        position: relative;
+        left: 164px;
+        top: 118px;
+      }
+      .img {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        left: 843px;
+        bottom: 169px;
+      }
+      .img2 {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 15px;
+        right: 21px;
+      }
+      .img3 {
+        position: relative;
+        top: 56px;
+        left: 79px;
+        border: 2px solid black;
+      }
+
+      h3 {
+        position: relative;
+        bottom: 14px;
+      }
+      .resume {
+        height: 40px;
+        width: 30%;
+
+        position: relative;
+        bottom: 20px;
+        right: 5px;
+        background-color: #dde7c7;
+        border-radius: 20px;
+        font-style: italic;
+        font-family: system-ui;
+      }
+      .contact {
+        height: 40px;
+        width: 30%;
+
+        position: relative;
+        bottom: 20px;
+        background-color: #dde7c7;
+        border-radius: 20px;
+        font-style: italic;
+        font-family: system-ui;
+      }
+      .left1 {
+        background-color: #98c9a3;
+        position: relative;
+        bottom: 113px;
+        height: 370px;
+      }
+      h2.about {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        bottom: 372px;
+        right: 396px;
+        color: #1a3a2d;
+      }
+      p {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+
+        color: #1a3a2d;
+        bottom: 354px;
+        right: 170px;
+        font-weight: 600;
+        text-align: center;
+        font-style: italic;
+        font-family: system-ui;
+        line-height: 35px;
+      }
+      h2.project {
+        position: relative;
+        display: inline-flex;
+        left: 20%;
+        bottom: 245px;
+      }
+
+      .projectimg {
+        display: flex;
+        justify-content: center;
+      }
+      p.project {
+        top: -200px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: #1a3a2d;
+        right: -204px;
+        font-weight: 600;
+        text-align: center;
+        font-style: italic;
+        font-family: system-ui;
+        line-height: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="front">
+      <div class="heading">
+        <h1>PORTFOLIO</h1>
+      </div>
+      <div class="container">
+        <li class="item">About</li>
+        <li class="item">Project</li>
+        <li class="item">Contact</li>
+      </div>
+      <div class="left">
+        <h2>
+          Hey I'm <br />
+          <span class="green">Raafia Fatima</span>
+        </h2>
+        <h3>
+          Skilled in Front-End development, Data Science, <br />and passionate
+          about Cyber Security.
+        </h3>
+        <button class="resume">Resume</button>
+        <button class="contact">Contact</button>
+      </div>
+      <img src="main.jpg" width="400px" class="img" />
+    </section>
+    <section class="about">
+      <div class="left1">
+        <img src="about.png" width="400px" class="img2" />
+
+        <h2 class="about">About Me</h2>
+        <p>
+          Currently enrolled as a first-year student at NEDUET,<br />
+          I am pursuing a Bachelor's degree in Software Engineering. <br />
+          Proficient in coding, cyber security, and web development,<br />
+          I am particularly fascinated by data science and machine learning
+          models. <br />
+          Committed to continuous learning and improvement in these domains.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="left2">
+        <img src="project_1.jpg" width="300px" class="img3" />
+
+        <h2 class="project">Project</h2>
+        <p class="project">
+          The objective of this project is to develop a Graphical User Interface
+          (GUI) <br />
+          tailored for an administrative restaurant management <br />
+          The system aims to prioritize usability, functionality, and aesthetic
+          appeal, <br />
+          ensuring an intuitive and visually engaging experience for users.
+        </p>
+        <div class="projectimg"></div>
+      </div>
+    </section>
+  </body>
+</html>
